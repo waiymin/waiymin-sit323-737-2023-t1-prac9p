@@ -5,7 +5,7 @@ const app = express();
 const port = 8080;
 
 const connectionString = process.env.DATABASE_CONNECTION_STRING;
-const dbName = 'your-database-name';
+const dbName = 'admin';
 
 async function connectToDatabase() {
   try {
